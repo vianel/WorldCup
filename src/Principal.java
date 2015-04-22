@@ -24,7 +24,6 @@ public class Principal {
     		if (ob.getString("player").equalsIgnoreCase(p) && ob.getString("type_of_event").equalsIgnoreCase("goal"))
     		{
     			countOfGoalOnThisMatch++;
-    			System.out.println("GOL");
     		}
     	}
     	return countOfGoalOnThisMatch;
